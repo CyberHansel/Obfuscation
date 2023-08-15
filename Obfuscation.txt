@@ -1,1 +1,5 @@
-[Ref]. Assembly. GetType('System.Management. Automation. '+ 'AmsiUtils')
+> [Ref]. Assembly.GetType('System.Management.Automation.AmsiUtils') Gots catched by AV - Windows Event log 1116 and 1117  /Application and services Logs/Microsoft/Windows/Windows defender/ AMSI/Operational
+> [Ref]. Assembly.GetType('System.Management.Automation.'+'Amsi'+'Utils') Evades AV
+
+
+
