@@ -55,7 +55,7 @@ Nonstaged or stageless payloads - They run one at the time so the shellcode and 
 
 Staged payloads - consist of two parts: 1.) dropper and 2.) shellcode
 First thing dropper is executed on victim machine and then the dropper will download shellcode from our machine. 
-Staged payloads are very GOOD to bypass ANTIVIRUS, because dropper doesnt have anything suspicious.
+Staged payloads are very GOOD to bypass ANTIVIRUS, because dropper doesnt have anything suspicious. And the shellcode is executed in memory, doesnt touch the disk!
 
 
 
