@@ -42,6 +42,11 @@ Data section may hold different types of data, sections like
 and there are many other sections.
 
 Add PE file to "PE-bear" tool.
+DOS Hdr - shows magic number
+Optional Hdr - Entry Point
+Fide Hdr - Section Count      #how many sections file have.
+Section Hdr - #Custom section is used to store extra data. Malware developers use this technique to create a new section that contains malicious code. Right click on custom section and "Fowwol on click".
+
 
 
 
