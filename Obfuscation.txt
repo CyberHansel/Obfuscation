@@ -12,6 +12,31 @@ Obfuscate controls like if/else ; try/catch ; switch/case ; for/while
 Object names - important, must obfuscate from AV signatures
 Object names can differ 1.) Compiled language (C, C#) 2.) Interpreted language (like python or powershell) Incase of Interpreted languages ALL objects matter and must be obfuscated! But in compiled language - important objects to obfuscate are only the objects appearing into strings! So we only care about objects in strings!
 
-strip tool
+Compilation modes:
+  1.) Debug mode - analyst can obtain all the available global variables, all the samples and other program variations.
+  2.) Release built - we remove all critical components, like symbol files. 
+
+-----------------------
+1.) Change all the names of variables, also delete all strings and all cout << "Buffer created"; - example, everything that gives any info and is not needed in program. Save code and then compile
+2.) x86_64-w64-mingw32-g++ -o challenge-8.exe challenge-8.c    #obfuscate code compilation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
