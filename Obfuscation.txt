@@ -23,6 +23,27 @@ Compilation modes:
 
 Most well-designed websites and systems will check the MIME type or the actual content of the file being uploaded to ensure it matches the expected file type.
 
+==============================================================================================
+==============================================================================================
+AV Evasion with shellcodes
+
+Shellcode is written in machine code or assembly and converted to hex. Ultimate way to evade AV.
+
+PE, portable executive, most of the time shellcode is injected in Data section on portable executive.
+
+1.) PE Header - metadata about executable, pointers, links to addresses in memory.
+2.) Data section - info required to run the program, info about windows loader (responsible to run the program), resourses to libraries or DLLs, variables. 
+Data section may hold different types of data, sections like 
+.text - holds actual code,
+.data - holds all the variables,
+.bss - hold uninitialized data or declared variables that dont have any data assigned to them,
+.rdata - holds read only data,
+.edata - holds exploitable or exportable objects and table information.
+and there are many other sections.
+
+Add PE file to "PE-bear" tool.
+
+
 
 
 
