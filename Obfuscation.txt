@@ -60,6 +60,9 @@ Staged payloads are very GOOD to bypass ANTIVIRUS, because dropper doesnt have a
 To create shellcode with msfvenom, have to use:
   1.) encoding - main goal tranform data in suitable format (Transform image to Base64 to embed in html, UTF-8, ASCII, URL encoding)
   2.) encryption - AES, DES, RSA
+  3.) Packers - used to compress and obfuscate executable files. The primary aim is to reduce the file size and/or make the code harder to analyze or reverse engineer. When the packed executable is run, it first unpacks or decompresses itself in memory, and then the original code is executed. UPX (Universal Packer for eXecutables) is a well-known packer. It can be used for both benign and malicious purposes. Are used to deceive analysts.
+  4.) Binders - used to combine two or more executables into a single file. When the resulting bound file is executed, all the embedded executables are run, typically one after another. For instance, a benign-looking executable (like a game or utility) might be bound with a piece of malware. 
+
 
 
 
