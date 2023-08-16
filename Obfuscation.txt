@@ -5,11 +5,13 @@
 > $Value="SetValue"
 > .SValue($null,$true)  #Now it works and AV is not notifyig about malicious content.
 
-Junk code, code stops -- gibberish to decept code analysts.
+Junk code, code stops -- gibberish to decept code analysts. BTW junk code has to be added before compilation!
+
 Obfuscate controls like if/else ; try/catch ; switch/case ; for/while
 
 Object names - important, must obfuscate from AV signatures
 Object names can differ 1.) Compiled language (C, C#) 2.) Interpreted language (like python or powershell) Incase of Interpreted languages ALL objects matter and must be obfuscated! But in compiled language - important objects to obfuscate are only the objects appearing into strings! So we only care about objects in strings!
 
+strip tool
 
 
