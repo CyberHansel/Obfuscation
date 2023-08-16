@@ -19,8 +19,9 @@ Compilation modes:
 -----------------------
 1.) Change all the names of variables, also delete all strings and all cout << "Buffer created"; - example, everything that gives any info and is not needed in program. Save code and then compile
 2.) $ x86_64-w64-mingw32-g++ -o challenge-8.exe challenge-8.c    #obfuscate code compilation.
-3.) $ strip --strip-all challenge-8.exe                          #stripping redundant symbols from the code
+3.) $ strip --strip-all challenge-8.exe                          #stripping redundant symbols from the code.
 
+Most well-designed websites and systems will check the MIME type or the actual content of the file being uploaded to ensure it matches the expected file type.
 
 
 
