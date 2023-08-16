@@ -49,7 +49,7 @@ Section Hdr - #Custom section is used to store extra data. Malware developers us
 
 ==============================================================================================
 ==============================================================================================
-Staged and unstaged payloads using msfvenom
+Staged and unstaged payloads using msfvenom (creates shellcodes)
 
 Nonstaged or stageless payloads - They run one at the time so the shellcode and the payload are all one piece. So the payload is executed at victims pc and at the same time it executes shellcode. It doesnt require network, if we are dealing with firewalls and IDS systems etc - stageless are good to go. They are very GOOD on bypass IDS, IPS, because they dont make any connetion outside. 
 
@@ -57,6 +57,9 @@ Staged payloads - consist of two parts: 1.) dropper and 2.) shellcode
 First thing dropper is executed on victim machine and then the dropper will download shellcode from our machine. 
 Staged payloads are very GOOD to bypass ANTIVIRUS, because dropper doesnt have anything suspicious. And the shellcode is executed in memory, doesnt touch the disk!
 
+To create shellcode with msfvenom, have to use:
+  1.) encoding - main goal tranform data in suitable format (Transform image to Base64 to embed in html, UTF-8, ASCII, URL encoding)
+  2.) encryption - AES, DES, RSA
 
 
 
