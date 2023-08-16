@@ -47,8 +47,15 @@ Optional Hdr - Entry Point
 Fide Hdr - Section Count      #how many sections file have.
 Section Hdr - #Custom section is used to store extra data. Malware developers use this technique to create a new section that contains malicious code. Right click on custom section and "Fowwol on click".
 
+==============================================================================================
+==============================================================================================
+Staged and unstaged payloads using msfvenom
 
+Nonstaged or stageless payloads - They run one at the time so the shellcode and the payload are all one piece. So the payload is executed at victims pc and at the same time it executes shellcode. It doesnt require network, if we are dealing with firewalls and IDS systems etc - stageless are good to go. They are very GOOD on bypass IDS, IPS, because they dont make any connetion outside. 
 
+Staged payloads - consist of two parts: 1.) dropper and 2.) shellcode
+First thing dropper is executed on victim machine and then the dropper will download shellcode from our machine. 
+Staged payloads are very GOOD to bypass ANTIVIRUS, because dropper doesnt have anything suspicious.
 
 
 
