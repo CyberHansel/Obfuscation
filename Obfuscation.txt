@@ -72,6 +72,8 @@ FROM SCRATCH
 2.) Copy shellcode output and place it in Encryptorv2.cs     #Encryptor will encrypt code using Base64 and xor
 3.) In order to get new version of shellcode we have to compile this now
     >csc.exe Encryptorv2.cs    #creates Encryptorv2.exe
+    .\Encryptorv2.exe          #gives shellcode output
+
 
     
 
