@@ -8,4 +8,5 @@
 Junk code, code stops -- gibberish to decept code analysts.
 
 Obfuscate controls like if/else ; try/catch ; switch/case ; for/while
+Object names - important, must obfuscate from AV signatures
 
