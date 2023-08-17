@@ -74,8 +74,16 @@ FROM SCRATCH
     >csc.exe Encryptorv2.cs    #creates Encryptorv2.exe
     .\Encryptorv2.exe          #gives shellcode output
 
+==============================================================================================
+==============================================================================================
+Packers
 
-    
+After generating shellcode and Encoding and Encrypting. Use packers. But how then shellcode will unpack itself on victims pc.
+Packers use code stub - responsible for unpacking malware in memory! There are AVs that are able to do in memory scan. They will be able to scan even when app is running in memory. And code stub may be found in AV signature database, packers give usually info about their stub_code.
+
+1.) When you have compiled .exe
+2.) ConfuserEx  (its a packer)
+ALSO PACKING CAN BE DONE WITH RAW malware.exe that is not encrypted and encoded.    
 
 
 
