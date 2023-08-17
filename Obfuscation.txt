@@ -86,7 +86,9 @@ Packers use code stub - responsible for unpacking malware in memory! There are A
 ALSO PACKING CAN BE DONE WITH RAW malware.exe that is not encrypted and encoded.    
 
 
-
+==============================================================================================
+EMBEDDING EXE INTO FILE OR BINDING ....
+==============================================================================================
 
 
 
