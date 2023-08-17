@@ -85,6 +85,16 @@ Packers use code stub - responsible for unpacking malware in memory! There are A
 2.) ConfuserEx  (its a packer)
 ALSO PACKING CAN BE DONE WITH RAW malware.exe that is not encrypted and encoded.    
 
+==============================================================================================
+Mimikatz
+==============================================================================================
+You can evade AV MS-defender, but EDR is much harder.
+
+https://www.youtube.com/watch?v=9pwMCHlNma4
+
+
+
+
 
 ==============================================================================================
 EMBEDDING EXE INTO FILE OR BINDING ....
