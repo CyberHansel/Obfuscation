@@ -91,7 +91,7 @@ Mimikatz
 You can evade AV MS-defender, but EDR is much harder.
 
 https://www.youtube.com/watch?v=9pwMCHlNma4
-
+1.) fireeeye commando-vm
 
 
 
